@@ -2,15 +2,15 @@
 A Pythons script project utilizing Google Maps/Twilio/OpenWeatherMap API, AWS EC2 instance, and cron job to automatically text you information (trip duration, estimated arrival time, weather) about your daily work commute.
 
 ## **Table of Contents:**
-- [Current Features and Developments](https://github.com/chan2git/daily_commute_text/new/main?readme=1#current-features-and-developments)
+- [Current Features and Developments](https://github.com/chan2git/-daily_commute_text#current-features-and-developments)
 
-- [API Setup](https://github.com/chan2git/daily_commute_text/new/main?readme=1#api-setup)
+- [API Setup](https://github.com/chan2git/daily_commute_text#api-setup)
 
-- [Hosting/AWS EC2 Instance](https://github.com/chan2git/daily_commute_text/new/main?readme=1#hostingaws-ec2-instance)
+- [Hosting/AWS EC2 Instance](https://github.com/chan2git/daily_commute_text#hostingaws-ec2-instance)
 
-- [Installation and Prep](https://github.com/chan2git/daily_commute_text/new/main?readme=1#installation-and-prep)
+- [Installation and Prep](https://github.com/chan2git/daily_commute_text#installation-and-prep)
 
-- [Automation and Scheduling](https://github.com/chan2git/daily_commute_text/new/main?readme=1#automation-and-scheduling)
+- [Automation and Scheduling](https://github.com/chan2git/daily_commute_text#automation-and-scheduling)
 
 
 
