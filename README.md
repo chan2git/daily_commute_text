@@ -37,7 +37,7 @@ https://developers.google.com/maps/documentation/directions/overview
 ### Twilio API
 Visit https://twilio.com to begin registration for your Twilio API credentials. After registration, be sure to enable a Twilio phone number, which will be the number sending the text messages.
 
-Please note that recicpient phone numbers need to be verified before they can receive Twilio text messages.
+Please note that recipient phone numbers need to be verified before they can receive Twilio text messages.
 
 **Twilio SMS API documentation:**
 https://www.twilio.com/docs/sms
