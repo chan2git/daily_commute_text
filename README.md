@@ -175,7 +175,7 @@ dos2unix daily_commute_text.py
 
 ## Automation and Scheduling
 ### Cron Job
-Given the free EC2 instances with AWS Free Tier, we can utilize cron jobs for this project's scope. A cron job is typically Unix/Linux-based and is an automated job or scheduled task that runs at a designated interval or schedule. Using cron jobs, we can schedule our script to run every Monday through Friday at 7:00am.
+Given the free EC2 instances with AWS Free Tier, we can leave our EC2 instance running 24/7 and utilize cron jobs for this project's scope. A cron job is typically Unix/Linux-based and is an automated job or scheduled task that runs at a designated interval or schedule. Using cron jobs, we can schedule our script to run every Monday through Friday at 7:00am.
 
 To set up a cron job, first run the command:
 ```
