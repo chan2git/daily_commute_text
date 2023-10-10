@@ -30,7 +30,7 @@ A Pythons script project utilizing Google Maps/Twilio/OpenWeatherMap API, AWS EC
 ### Google Maps API
 Visit https://console.google.com to begin registration for your Google Maps API credentials. After registration, be sure to search for the Directions API as it will need to be enabled under your profie.
 
-**Google Maps Directions API documentation:**
+**Google Maps Directions API documentation:**  
 https://developers.google.com/maps/documentation/directions/overview
 
 
@@ -39,23 +39,23 @@ Visit https://twilio.com to begin registration for your Twilio API credentials. 
 
 Please note that recipient phone numbers need to be verified before they can receive Twilio text messages.
 
-**Twilio SMS API documentation:**
+**Twilio SMS API documentation:**  
 https://www.twilio.com/docs/sms
 
 
 ### OpenWeatherMap API
 Visit https://openweathermap.org to begin registration for your OpenWeatherMap API credentials.
 
-**OpenWeather Map Current Weather API documentation:**
+**OpenWeather Map Current Weather API documentation:**  
 https://openweathermap.org/current
 
 
 
 
-## Hosting/AWS EC2 Instance
+## Hosting on AWS EC2 Instance
 This project is hosted on a AWS EC2 instance running Ubuntu. AWS Free Tier membership provides two EC2 instances (one Linux, one Windows) that can each run 750 hours/month, which effectively allows the instances to run constantly without incurring charges or needing tier upgrade for the scope of this project.
 
-**AWS**:
+**AWS**:  
 https://aws.amazon.com
 
 
@@ -92,6 +92,10 @@ pip install python-dotenv
 ```
 
 ### .env
+
+> [!NOTE]  
+> The current version of this project relies on using environment variables stored locally, which is sufficient for the scope of this project. A future updated version of this project will explore using AWS services (such as AWS Secrets Manager) as a a more secure way to store and reference credentials.
+
 The .env file available in this repo is a template. The key names corresponds to variable names found within project script. At a minimum, download the .env file and simply replace the template values in the key-value pairings with the appropriate credentials by using a terminal text editor such as `nano`.
 
 Alternatively, instead of downlading the repo's .env file, you could create your own .env directly within your Ubuntu instance by using `nano`. Be sure to match the key names with the variable names it's meant to access (see template). If you make any changes, you must ensure that corresponding key names/variable names match so that the credentials and data can be referenced correctly.
@@ -189,3 +193,12 @@ This will open up a nano-like display. Then you will need to add/modify the belo
 
 For additional help with learning cron job syntax, visit: https://www.hostinger.com/tutorials/cron-job
 
+
+
+
+## Project Result
+
+### Text Alert  
+After hosting our script on a EC2 instance and using cron job to schedule the script every Monday through Friday at 7:00am, we see that the final result is a text message sent to the recipient phone  number indicating information regading the temperature, commute time, and arrival time.  
+
+![Alt text](<Text Alert.png>)
